@@ -4,9 +4,9 @@
 cask "nuclr-commander" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.83"
-  sha256 arm:   "9fd4dc236f160cc8d48c5bd95dbf4d009db656a68946c3fe952cb59833772c7e",
-         intel: "9973f2d768549cc2e85d475f5177b05c582422da5db341db05b385255b9c68f0"
+  version "1.0.85"
+  sha256 arm:   "bb32117b71c26f6cff9593ad94e6f309f3bd52ff38658264940acaaf165e782c",
+         intel: "4d62e96be71eaee3dd90170a8e0f4aace4a1d7c1bb4227a877e000f6f1893137"
 
   # The counted redirect, so Homebrew installs show up in the download stats;
   # it resolves to the immutable object on downloads.nuclr.dev.
